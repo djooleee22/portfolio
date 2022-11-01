@@ -1,0 +1,25 @@
+#projects {
+  color: white;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  .project {
+    cursor: pointer;
+    border: 2px solid white;
+    padding-bottom: 5px;
+    &:hover {
+      box-shadow: 0 0 0.1rem #fff, 0 0 0.1rem #fff, 0 0 1rem #bc13fe,
+        0 0 0.4rem #bc13fe, 0 0 1.5rem #bc13fe, inset 0 0 0.8rem #bc13fe;
+    }
+    img {
+      width: 190px;
+    }
+    p {
+      text-align: center;
+      span {
+        color: #ca51fa;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+#App {
+  height: 100vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.88), black 90%);
+
+  main {
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

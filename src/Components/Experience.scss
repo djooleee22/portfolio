@@ -1,0 +1,28 @@
+#experience {
+  position: relative;
+  height: 450px;
+  width: 1100px;
+
+  &.pad {
+    padding-top: 70px;
+  }
+
+  button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 18px;
+    border: 2px solid white;
+    padding: 10px;
+    cursor: pointer;
+    width: 160px;
+    font-weight: 600;
+    background-color: inherit;
+    color: white;
+    letter-spacing: 1.5px;
+    &:hover {
+      box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+        0 0 0.2rem #bc13fe, 0 0 0.8rem #bc13fe, inset 0 0 0.8rem #bc13fe;
+    }
+  }
+}
