@@ -8,7 +8,6 @@ const Contact: React.FC = () => {
       <p className="email">
         Contact me via email:{" "}
         <a href="mailto:antonijevic.dj1@gmail.com">antonijevic.dj1@gmail.com</a>
-        .
       </p>
       <p className="linkedin">
         Checkout my LinkedIn profile:{" "}
@@ -16,7 +15,7 @@ const Contact: React.FC = () => {
           href="https://www.linkedin.com/in/%C4%91or%C4%91e-antonijevi%C4%87-77319b1a3/"
           target="_blank"
         >
-          linkedin.com.
+          linkedin.com
         </a>
       </p>
       <p className="github">

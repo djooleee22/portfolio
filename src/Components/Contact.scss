@@ -15,4 +15,35 @@
   p:not(:last-child) {
     margin-bottom: 26px;
   }
+  @media screen and (max-width: 1050px) {
+    p {
+      font-size: 24px;
+      a {
+        font-size: 28px;
+      }
+    }
+  }
+  @media screen and (max-width: 850px) {
+    p {
+      font-size: 18px;
+      a {
+        font-size: 22px;
+      }
+    }
+  }
+  @media screen and (max-width: 650px) {
+    p {
+      font-size: 14px;
+      a {
+        font-size: 18px;
+      }
+    }
+  }
+  @media screen and (max-width: 650px) {
+    p {
+      a {
+        display: block;
+      }
+    }
+  }
 }

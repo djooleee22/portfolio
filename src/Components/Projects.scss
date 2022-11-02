@@ -8,18 +8,42 @@
     cursor: pointer;
     border: 2px solid white;
     padding-bottom: 5px;
+    width: 190px;
     &:hover {
       box-shadow: 0 0 0.1rem #fff, 0 0 0.1rem #fff, 0 0 1rem #bc13fe,
         0 0 0.4rem #bc13fe, 0 0 1.5rem #bc13fe, inset 0 0 0.8rem #bc13fe;
     }
     img {
-      width: 190px;
+      width: 100%;
     }
     p {
       text-align: center;
       span {
         color: #ca51fa;
       }
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .project {
+      width: 150px;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    gap: 12px;
+    .project {
+      width: 130px;
+      .helper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+  @media screen and (max-width: 480px) {
+    gap: 8px;
+    .project {
+      width: 100px;
+      font-size: 10px;
     }
   }
 }

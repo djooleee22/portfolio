@@ -34,7 +34,7 @@ const projectsList = [
   },
   {
     id: "p4",
-    name: "Giphy",
+    name: "Giphy Application",
     image: giphy,
     num: "04",
     url: "https://giphy-plum.vercel.app",
@@ -86,10 +86,12 @@ const Projects: React.FC = () => {
           className="project"
         >
           <img src={el.image} alt="project" />
-          <p>
-            <span>{el.num}. </span>
-            {el.name}
-          </p>
+          <div className="helper">
+            <p>
+              <span>{el.num}. </span>
+              {el.name}
+            </p>
+          </div>
         </div>
       ))}
     </div>

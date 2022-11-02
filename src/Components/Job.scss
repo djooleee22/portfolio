@@ -20,4 +20,25 @@
       color: #ca51fa;
     }
   }
+  @media screen and (max-width: 1150px) {
+    font-size: 12px;
+    gap: 20px;
+    &:not(:last-child) {
+      margin-bottom: 14px;
+    }
+  }
+  @media screen and (max-width: 950px) {
+    font-size: 10px;
+
+    &:not(:last-child) {
+      margin-bottom: 12px;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    font-size: 10px;
+    img {
+      width: 75px;
+      height: 75px;
+    }
+  }
 }

@@ -2,6 +2,9 @@
   position: relative;
   height: 450px;
   width: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   &.pad {
     padding-top: 70px;
@@ -23,6 +26,35 @@
     &:hover {
       box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
         0 0 0.2rem #bc13fe, 0 0 0.8rem #bc13fe, inset 0 0 0.8rem #bc13fe;
+    }
+  }
+  @media screen and (max-width: 1150px) {
+    width: 900px;
+  }
+  @media screen and (max-width: 950px) {
+    width: 750px;
+    button {
+      font-size: 16px;
+      width: 130px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    width: 600px;
+    button {
+      font-size: 14px;
+      width: 100px;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    padding: 0 50px;
+    button {
+      top: -70px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 12px;
+    }
+    &.pad {
+      padding-top: 0;
     }
   }
 }

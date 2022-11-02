@@ -34,6 +34,9 @@ $text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 15px #fff, 0 0 32px #0fa,
   }
 
   .right {
+    .hidden {
+      display: none;
+    }
     .nav-bar {
       display: flex;
       list-style: none;
@@ -63,6 +66,56 @@ $text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 15px #fff, 0 0 32px #0fa,
         &:hover {
           box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
             0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .right .nav-bar {
+      gap: 14px;
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 910px) {
+    padding: 18px;
+    .right .nav-bar {
+      gap: 8px;
+      font-size: 12px;
+      li {
+        padding: 6px;
+      }
+    }
+  }
+  @media screen and (max-width: 700px) {
+    padding: 15px;
+    .right .nav-bar {
+      gap: 8px;
+      font-size: 10px;
+      li {
+        padding: 4px;
+      }
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .right {
+      .nav-bar {
+        display: none;
+      }
+      .hidden {
+        display: block;
+        .ham {
+          width: 40px;
+          color: white;
+        }
+        .mobile-nav {
+          list-style: none;
+          border: 1px solid white;
+          padding: 2px 4px;
+
+          a {
+            color: white;
+          }
         }
       }
     }
