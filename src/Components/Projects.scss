@@ -10,8 +10,8 @@
     padding-bottom: 5px;
     width: 190px;
     &:hover {
-      box-shadow: 0 0 0.1rem #fff, 0 0 0.1rem #fff, 0 0 1rem #bc13fe,
-        0 0 0.4rem #bc13fe, 0 0 1.5rem #bc13fe, inset 0 0 0.8rem #bc13fe;
+      box-shadow: 0 0 0.1rem #fff, 0 0 0.1rem #fff, 0 0 1rem #ff009d,
+        0 0 0.4rem #ff009d, 0 0 1.5rem #ff009d, inset 0 0 0.8rem #ff009d;
     }
     img {
       width: 100%;
@@ -19,7 +19,7 @@
     p {
       text-align: center;
       span {
-        color: #ca51fa;
+        color: #ff009d;
       }
     }
   }
@@ -40,9 +40,11 @@
     }
   }
   @media screen and (max-width: 480px) {
-    gap: 8px;
+    gap: 12px;
+    grid-template-columns: 1fr 1fr;
+
     .project {
-      width: 100px;
+      width: 120px;
       font-size: 10px;
     }
   }

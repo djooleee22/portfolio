@@ -4,6 +4,7 @@
   width: 1100px;
   display: flex;
   flex-direction: column;
+  gap: 12px;
   justify-content: center;
 
   &.pad {
@@ -24,8 +25,8 @@
     color: white;
     letter-spacing: 1.5px;
     &:hover {
-      box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
-        0 0 0.2rem #bc13fe, 0 0 0.8rem #bc13fe, inset 0 0 0.8rem #bc13fe;
+      box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #ff009d,
+        0 0 0.2rem #ff009d, 0 0 0.8rem #ff009d, inset 0 0 0.8rem #ff009d;
     }
   }
   @media screen and (max-width: 1150px) {

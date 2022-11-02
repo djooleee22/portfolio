@@ -34,7 +34,7 @@ const projectsList = [
   },
   {
     id: "p4",
-    name: "Giphy Application",
+    name: "Giphy",
     image: giphy,
     num: "04",
     url: "https://giphy-plum.vercel.app",

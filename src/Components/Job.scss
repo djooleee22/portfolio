@@ -3,10 +3,8 @@
   display: flex;
   gap: 25px;
   font-size: 14px;
+  align-items: flex-start;
 
-  &:not(:last-child) {
-    margin-bottom: 18px;
-  }
   img {
     display: inline-block;
     padding: 5px;
@@ -17,22 +15,15 @@
   }
   .right {
     .position {
-      color: #ca51fa;
+      color: #ff009d;
     }
   }
   @media screen and (max-width: 1150px) {
     font-size: 12px;
     gap: 20px;
-    &:not(:last-child) {
-      margin-bottom: 14px;
-    }
   }
   @media screen and (max-width: 950px) {
     font-size: 10px;
-
-    &:not(:last-child) {
-      margin-bottom: 12px;
-    }
   }
   @media screen and (max-width: 650px) {
     font-size: 10px;
