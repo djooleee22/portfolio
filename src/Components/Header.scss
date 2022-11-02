@@ -6,7 +6,7 @@ $text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 15px #fff, 0 0 32px #0fa,
 #header {
   background-color: black;
   color: white;
-  min-height: 100px;
+  min-height: 120px;
   padding: 25px;
   display: flex;
   justify-content: space-between;
@@ -49,8 +49,6 @@ $text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 15px #fff, 0 0 32px #0fa,
       }
 
       .active {
-        // box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
-        //   0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
         box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #ff009d,
           0 0 0.8rem #ff009d, 0 0 2.8rem #ff009d, inset 0 0 1.3rem #ff009d;
       }
@@ -62,7 +60,6 @@ $text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 15px #fff, 0 0 32px #0fa,
         font-weight: 700;
 
         span {
-          // color: #ca51fa;
           color: #ff009d;
         }
 
