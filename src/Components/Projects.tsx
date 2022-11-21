@@ -8,7 +8,7 @@ import rickAndMorty from "../slike/Rick and Morty.png";
 import youtubeClone from "../slike/Youtube clone.png";
 import splitter from "../slike/Splitter.png";
 import chatRoom from "../slike/Chatroom.png";
-import mario from "../slike/Super Mario.png";
+import weather from "../slike/Weather.png";
 
 const projectsList = [
   {
@@ -69,10 +69,10 @@ const projectsList = [
   },
   {
     id: "p9",
-    name: "Mario",
-    image: mario,
+    name: "Weather app",
+    image: weather,
     num: "09",
-    url: "https://mario-orpin-three.vercel.app",
+    url: "https://weather-app-alpha-two-14.vercel.app",
   },
 ];
 
