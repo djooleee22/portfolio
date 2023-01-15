@@ -16,7 +16,7 @@ const projectsList = [
     name: "TV Library",
     image: tvLibrary,
     num: "01",
-    url: "https://movies-tmdb-omega.vercel.app",
+    url: "https://movies-tmdb-tpe9.vercel.app",
   },
   {
     id: "p1",
